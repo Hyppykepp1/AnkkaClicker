@@ -12,13 +12,13 @@ public class SettingsMenu : MonoBehaviour
     }
     public void GoToMainMenuScene()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MainMenu");
     }
 
 
     public AudioMixer audioMixer;
 
-    public void SetVolume (float volume)
+    public void SetVolume(float volume)
     {
         audioMixer.SetFloat("Volume", volume);
     }
